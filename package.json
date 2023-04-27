@@ -1,0 +1,18 @@
+{
+  "name": "node-rpsls",
+  "version": "1.0.0",
+  "description": "This assignment will help you learn to create an installable Node.js module package. You'll also provide a command line interface with it.",
+  "main": "./lib/rpsls.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sujaysj",
+  "license": "GPL-3.0-only",
+  "bin": {
+    "node-rps": "./bin/rps-cli.js",
+    "node-rpsls": "rpsls-cli.js"
+  },
+  "dependencies": {
+    "minimist": "^1.2.8"
+  }
+}
