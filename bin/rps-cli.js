@@ -38,7 +38,7 @@ try {
     var output = rps(unlabeled)
     console.log(JSON.stringify(output))
 } catch (err) {
-    console.error(e.message)
+    console.error(unlabeled + " is out of range.")
     console.log(helpmsg)
     console.log(rulesmsg)
 }
