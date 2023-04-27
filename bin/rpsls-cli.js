@@ -35,7 +35,7 @@ if (args.h || args.help) {
 }
 
 if (args.r || args.rules) {
-    console.log(datamsg)
+    console.log(rulesmsg)
     process.exit(0)
 }
 
