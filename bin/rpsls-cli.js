@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import minimist from 'minimist'
-import { rps } from '../lib/rpsls.js'
+import { rpsls } from '../lib/rpsls.js'
 const args = minimist(process.argv.slice(2))
 
 const helpmsg = `Usage: node-rpsls [SHOT]
@@ -42,7 +42,7 @@ if (args.r || args.rules) {
 const unlabeled = args._[0]
 
 try {
-    var output = rps(unlabeled)
+    var output = rpsls(unlabeled)
     console.log(JSON.stringify(output))
 } catch (err) {
     console.error(e.message)
